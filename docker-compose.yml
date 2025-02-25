@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    image: stock-test
+    container_name: stock_test_1
+    ports:
+      - "8080:8080"
